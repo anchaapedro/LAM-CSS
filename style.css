@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #AD122E;
+    color: white;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.nav-links a{ 
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-links a:hover{
+    color: #4b1620;
+}
