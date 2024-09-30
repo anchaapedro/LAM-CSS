@@ -5,20 +5,24 @@
     font-family: 'Poppins', sans-serif
 }
 
+.hero{
+    height: 60vh;
+    background-color: #711526;
+    color: white;
+
+}
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    background-color: #AD122E;
-    color: white;
     align-items: center;
 }
 
 .nav-links{
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 34px;
 }
 
 .nav-links a{ 
@@ -27,6 +31,36 @@
 
 }
 
-.nav-links a:hover{
-    color: #4b1620;
+.nav-links .items:hover{
+    background-color: #ad4756;
+    padding: 17px;
+    border-radius: 48px;
+    height: 38px;
+    
+}
+
+.nav-links .items{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.nav-links img{
+    height: 18px;
+}
+
+.introduction {
+    margin-top: 60px;
+    margin-left: 32px;
+}
+
+.introduction h1{
+    font-size: 40px;
+}
+
+.introduction h2{
+    font-size: large;
+    font-weight: lighter;
+    margin-top: 10px;
 }
